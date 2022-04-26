@@ -1,0 +1,23 @@
+.Profile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+.Profile img {
+    width: 15vh;
+    height: 15vh;
+    margin: 0 2vh;
+    border-radius: 10vh;
+}
+
+.Profile span {
+    display: flex;
+    flex-flow: column;
+    margin: 0 0 0 5vh;
+}
+
+.Profie p {
+    font-size: 3vh;
+}

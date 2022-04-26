@@ -1,0 +1,14 @@
+.Projects {
+    width: 100%;
+}
+
+.Projects p {
+    margin: 0 0 0 1vh;
+}
+
+#projectsP {
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+    margin: 2vh;
+}

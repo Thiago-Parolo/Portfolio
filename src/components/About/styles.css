@@ -1,0 +1,14 @@
+.About {
+    width: 100vw;
+}
+
+.About p {
+    margin: 0 0 0 1vh;
+}
+
+#aboutP {
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+    margin: 2vh;
+}

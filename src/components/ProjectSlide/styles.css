@@ -1,0 +1,83 @@
+.ProjectSlide {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+
+.ProjectSlide div {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.ProjectSlide div span {
+    display: none;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    word-break: break-word;
+}
+
+.ProjectSlide div span p {
+    animation-name: slideDown;
+    animation-duration: 1s;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: .1;
+        transform: translateY(-10vh);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.ProjectSlide div span img {
+    width: 50vw;
+    height: 60vh;
+    margin: 0 1vh;
+
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.ProjectSlide div button {
+    position: absolute;
+    height: 30%;
+    width: 5vw;
+    top: 20vh;
+
+    color: white;
+
+    background: none;
+    border: none;
+}
+
+.ProjectSlide div button:hover {
+    opacity: 0.5;
+    transition: .4s;
+}
+
+.ProjectSlide #next_button {
+    left: 46vw;
+}
+
+.ProjectSlide button:hover {
+    cursor: pointer;
+}
